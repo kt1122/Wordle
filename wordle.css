@@ -1,0 +1,124 @@
+h1 {
+  margin-left: 655px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 10px;
+  column-gap: 1px;
+  margin: auto;
+  max-width: 400px;
+}
+
+.cell {
+  background-color: #fff;
+  border: 2px solid #333;
+  font-size: 48px;
+  font-weight: bold;
+  cursor: pointer;
+  aspect-ratio: 1 / 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  color: #444;
+}
+
+.key {
+  margin: 1px;
+  padding: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  gap: 5px;
+}
+
+.row.row1 {
+  margin-top: 12px;
+  margin-right: 6px;
+}
+
+.row.row2 {
+  margin-top: 8px;
+  margin-right: 2px;
+}
+
+.row.row3 {
+  margin-top: 8px;
+  margin-right: 4px;
+}
+
+.correctCell {
+  background-color: #2ee65c;
+}
+
+.correctLetter {
+  background-color: #e6e32e;
+}
+
+.correctLetter2 {
+  margin: 1px;
+}
+
+.incorrectLetter {
+  background-color: #979792;
+}
+
+.howTo {
+  background-color: #fff;
+  margin-left: 525px;
+  position: relative;
+  top: -4px;
+  border-radius: 20px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.howTo:hover {
+  background-color: #c0c2c4;
+}
+
+@media screen and (max-width: 600px) {
+  .board {
+    row-gap: 10px;
+    column-gap: 1px;
+    margin: auto;
+    max-width: 385px;
+    margin-bottom: 35px;
+    margin-top: 65px;
+  }
+
+  .key {
+    font-size: 20px;
+    padding: 6px;
+  }
+
+  .cell {
+    font-size: 35px;
+    height: 60px;
+    color: #444;
+  }
+
+  h1 {
+    margin-left: 135px;
+    margin-top: 75px;
+    font-size: 40px;
+  }
+
+  .howTo {
+    margin-left: -280px;
+    position: relative;
+    font-size: 15px;
+    top: 790px;
+  }
+
+  .howTo:hover {
+    background-color: #fff;
+  }
+}
