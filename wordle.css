@@ -1,6 +1,16 @@
 h1 {
-  margin-left: 655px;
+    text-align: center;
 }
+
+/* .howTo {
+    background-color: #fff;
+    margin-left:30px;
+    position: relative;
+    top: -4px;
+    border-radius: 20px;
+    height: 30px;
+    font-size: 15px;
+  } */
 
 .board {
   display: grid;
@@ -70,16 +80,6 @@ h1 {
   background-color: #979792;
 }
 
-.howTo {
-  background-color: #fff;
-  margin-left: 525px;
-  position: relative;
-  top: -4px;
-  border-radius: 20px;
-  height: 30px;
-  font-size: 15px;
-}
-
 .howTo:hover {
   background-color: #c0c2c4;
 }
@@ -106,16 +106,13 @@ h1 {
   }
 
   h1 {
-    margin-left: 135px;
     margin-top: 75px;
     font-size: 40px;
   }
 
   .howTo {
-    margin-left: -280px;
-    position: relative;
     font-size: 15px;
-    top: 790px;
+    margin-top: 100px;
   }
 
   .howTo:hover {
