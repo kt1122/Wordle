@@ -6,6 +6,7 @@ let counter = 0;
 const cells = document.querySelectorAll('.cell');
 const keys = document.querySelectorAll('.key');
 let matchedNum = 0;
+let matchedLetters = new Set();
 
 let wordsToUse = ['chair', 'water', 'smile', 'beach', 'music', 'games', 'house', 'story',
     'train', 'cloud', 'earth', 'ocean', 'birds', 'magic', 'fairy', 'dream', 'night',
@@ -53,7 +54,6 @@ function getWord(wordNum) {
 }
 
 function checkWord(row) {
-    let matchedLetters = new Set();
     let i = row * colNum;
 
     while (i < colNum * (row + 1)) {
@@ -93,6 +93,7 @@ function checkWord(row) {
 }
 
 function resetBoard() {
+    matchedLetters.clear();
     counter = 0;
     wordNum = Math.floor(Math.random() * wordsToUse.length);
     wordleWord = "";
