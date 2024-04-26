@@ -47,7 +47,7 @@ function toggleKey(button) {
         {
             setTimeout(function () {
                 // Show alert dialog
-                alert("Oops! Word not found...\n\nExit this message to play again or restart the board.");
+                alert("Oops! Word not found... This round's word was: " + wordleWord+"\n\nExit this message to play again or restart the board.");
                 resetBoard();
             }, 100);
         }
