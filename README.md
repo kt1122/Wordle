@@ -1,3 +1,5 @@
+# [Play Wordle-KS here!](https://kt1122.github.io/Wordle-KS/)
+
 ## What is this project? 
 Wordle-KS is Katie Sharp’s take on the popular New York Times game "Wordle." This project  
 was undertaken for ECS 162 (Web Programming) at UC Davis during the Spring Quarter of 2024.   
