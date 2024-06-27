@@ -4,7 +4,9 @@
 Wordle-KS is Katie Sharp’s take on the popular New York Times game "Wordle." This project  
 was undertaken for ECS 162 (Web Programming) at UC Davis during the Spring Quarter of 2024.   
 It was designed to teach students how to use client-side JavaScript in conjunction with CSS and   
-HTML, all of which were introduced for the first time during this course.  
+HTML, all of which were introduced for the first time during this course.    
+  
+To play the original Wordle game by the New York Times, visit [New York Times Wordle](https://www.nytimes.com/games/wordle/index.html).
 
 ## How to play:
 In this implementation of Wordle, you have six tries to guess a five-letter word. Unlike the  
@@ -19,4 +21,4 @@ curated to also be visually appealing and fully functional on desktop computers 
 Students were  also tasked to use plain JavaScript without external libraries to strengthen   
 core programming skills and ensure uniform coding practices in order to deepen understanding   
 of JavaScript’s direct functionalities.  
- 
+
