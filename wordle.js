@@ -147,4 +147,3 @@ howToButton.addEventListener("click", function () {
         + "\n- If the box instead turns yellow, that indicates that the letter in the box is in the word, but you have not put it in the correct spot."
         + "\n- When the box turns grey, that means that the letter in the box is not in the word at all.");
 });
-
